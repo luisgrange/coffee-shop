@@ -1,7 +1,7 @@
 import { Header } from '../src/components/header.js';
 import { Menu } from '../src/components/menu.js';
 import { Products } from '../src/components/products';
-
+import {Footer} from '../src/components/footer.js'
 import homeImg from '../images/home-img.jpeg';
 import aboutImg from '../images/about-img.jpeg';
 import Image from 'next/image';
@@ -42,6 +42,7 @@ function Main(){
                         width: 45%;
                     }
                     .home .container h1{
+                        text-align: left;
                         font-size: 50px;
                         font-weight: 700;
                         text-transform: uppercase;
@@ -151,6 +152,7 @@ function HomePage() {
             <About/>
             <Menu/>
             <Products/>
+            <Footer/>
         </>
     )
   }
